@@ -85,6 +85,11 @@ public class InicioSesion extends javax.swing.JFrame {
         botonIngresar.setFont(new java.awt.Font("PT Sans Caption", 1, 14)); // NOI18N
         botonIngresar.setForeground(new java.awt.Color(255, 255, 255));
         botonIngresar.setText("Ingresar");
+        botonIngresar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonIngresarActionPerformed(evt);
+            }
+        });
 
         jLabel6.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 12)); // NOI18N
         jLabel6.setText("(Sin DV)");
@@ -159,6 +164,10 @@ public class InicioSesion extends javax.swing.JFrame {
     private void botonSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonSalirActionPerformed
         System.exit(0);
     }//GEN-LAST:event_botonSalirActionPerformed
+
+    private void botonIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonIngresarActionPerformed
+        
+    }//GEN-LAST:event_botonIngresarActionPerformed
 
     private void ColocarImagen (JLabel labelName, String root){
         
